@@ -1,0 +1,17 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    border: 1px solid ;
+}
+
+ul {
+    list-style: none;
+}

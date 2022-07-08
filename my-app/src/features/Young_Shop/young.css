@@ -1,0 +1,21 @@
+.product {
+    display: block;
+    margin: auto;
+    width: 20%;
+    border: 1px solid ;
+    padding: 20px;
+}
+
+.blue {
+    color: blue;
+}
+
+.line {
+    border: 0.1px solid #d3d3d3;
+}
+
+.star {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}

@@ -1,0 +1,36 @@
+
+.cards{
+    width: 300px;
+    height: 220px;
+    border: 2px solid #eeb6b6;
+}
+
+.header{
+    height: 40%;
+}
+
+.info {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: dimgrey;
+    font-weight: 500;
+}
+
+.data {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(82, 149, 221);
+}
+
+.border {
+    border: .1px solid #aeaeae;
+}
+
+.chart-col{
+    padding-top: 15px;
+    height: 60%;
+    background-color:  rgb(233, 230, 230);
+    display: flex;
+    justify-content: space-around;
+}

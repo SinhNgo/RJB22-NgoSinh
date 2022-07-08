@@ -1,0 +1,28 @@
+.pill{
+    width: 40px;
+    height: 150px;
+    display: block;
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    height: 70px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #aeaeae;
+    text-align: center;
+    background-color: white;
+    align-items: flex-end;
+}
+
+.col-1{
+    align-content: flex-end;
+    width: 100%;
+}
+
+.day{
+    padding-top: 10px;
+    color: #969393;
+    font-size: 13px;
+}

@@ -1,0 +1,40 @@
+.container2{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    background-color: white;   
+    margin: 10px;
+}
+
+.devv {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    
+    
+}
+.devv-1{
+    width: 40%;
+    padding-top: 7px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(17, 182, 64);
+}
+
+.devv-2 {
+    font-weight: 600;
+    margin: auto;
+}
+
+.numb {
+    width: 450px;
+    height: 60%;
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.numb-1 {
+    width: 20%;
+    height: 100%;
+}
