@@ -1,18 +1,25 @@
-import './App.css';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Chart from './features/ChartBar1';
-import Chart2 from './features/ChartBar2';
-import SocialBlock from './features/ChartBar3';
-import ChartColumn from './features/ChartColumn';
-import CompCol from './features/CompCol';
-import Room from './features/Room';
-import Shirt from './features/Shirt';
-import Young from './features/Young_Shop';
+import "./App.css";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Chart from "./features/ChartBar1";
+import Chart2 from "./features/ChartBar2";
+import SocialBlock from "./features/ChartBar3";
+import ChartColumn from "./features/ChartColumn";
+import CompCol from "./features/CompCol";
+import Room from "./features/Room";
+import BtnLike from "./homeword3/BtnLike";
+import Shirt from "./features/Shirt";
+import Young from "./features/Young_Shop";
+import BtnRate from "./homeword3/BtnRate";
+import HandleEvent from "./homeword3/ImgView";
+import ChangeColor from "./features/State/ChangeColor";
 function App() {
   return (
     <>
       <div>
+        <BtnLike></BtnLike>
+        <BtnRate></BtnRate>
+        <HandleEvent></HandleEvent>
         {/* <Shirt></Shirt> */}
         {/* <Young></Young> */}
         {/* <Room></Room> */}
@@ -34,12 +41,32 @@ function App() {
           <SocialBlock color="#DC143C" text="Pinterest" total="34,000" init="Pins"></SocialBlock>
         </div> */}
       </div>
-      <div className='chart-3'>
-        <ChartColumn texts="TODAY'S VISITTORS" total="24,599" unit="" percentages={20}></ChartColumn>
-        <ChartColumn texts="YESTERDAY'S VISITTORS" total="15,699" unit="" percentages={20}></ChartColumn>
-        <ChartColumn texts="TOTAL DOWNLOADS" total="1,224,599" unit="" percentages={20}></ChartColumn>
-        <ChartColumn texts="CURRENT INCOME" total="914,599" unit="" percentages={20}></ChartColumn>
-      </div>
+      {/* <div className="chart-3">
+        <ChartColumn
+          texts="TODAY'S VISITTORS"
+          total="24,599"
+          unit=""
+          percentages={20}
+        ></ChartColumn>
+        <ChartColumn
+          texts="YESTERDAY'S VISITTORS"
+          total="15,699"
+          unit=""
+          percentages={20}
+        ></ChartColumn>
+        <ChartColumn
+          texts="TOTAL DOWNLOADS"
+          total="1,224,599"
+          unit=""
+          percentages={20}
+        ></ChartColumn>
+        <ChartColumn
+          texts="CURRENT INCOME"
+          total="914,599"
+          unit=""
+          percentages={20}
+        ></ChartColumn>
+      </div> */}
     </>
   );
 }
