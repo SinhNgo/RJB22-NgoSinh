@@ -7,19 +7,21 @@ import SocialBlock from "./features/ChartBar3";
 import ChartColumn from "./features/ChartColumn";
 import CompCol from "./features/CompCol";
 import Room from "./features/Room";
-import BtnLike from "./homeword3/BtnLike";
 import Shirt from "./features/Shirt";
 import Young from "./features/Young_Shop";
 import BtnRate from "./homeword3/BtnRate";
-import HandleEvent from "./homeword3/ImgView";
+import LikeBtn from "./homeword3/BtnLike";
 import ChangeColor from "./features/State/ChangeColor";
+import BtnPrewNext from "./homeword3/BtnPrewNext";
 function App() {
   return (
     <>
       <div>
-        <BtnLike></BtnLike>
+        <LikeBtn></LikeBtn>
         <BtnRate></BtnRate>
-        <HandleEvent></HandleEvent>
+        <BtnPrewNext></BtnPrewNext>
+      </div>
+      <div>
         {/* <Shirt></Shirt> */}
         {/* <Young></Young> */}
         {/* <Room></Room> */}

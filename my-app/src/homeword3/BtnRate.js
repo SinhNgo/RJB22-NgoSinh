@@ -10,7 +10,7 @@ function BtnRate() {
         if (item <= stars) {
           return (
             <AiFillStar
-              style={{ color: "orange", cursor: "pointer" }}
+              style={{ color: "red", cursor: "pointer", fontSize: 30 }}
               onClick={() => {
                 setStars(item);
               }}
@@ -19,7 +19,7 @@ function BtnRate() {
         }
         return (
           <AiOutlineStar
-            style={{ color: "orange", cursor: "pointer" }}
+            style={{ color: "red", cursor: "pointer", fontSize: 30 }}
             onClick={() => {
               setStars(item);
             }}

@@ -1,27 +1,36 @@
-import React from "react";
+import React, { Component } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
-function BtnLike() {
-  // State
-  const [like, setLike] = React.useState(false);
+class LikeBtn extends Component {
+  constructor(props) {
+    super(props);
 
-  return (
-    <div>
-      {like && (
-        <AiFillHeart
-          onClick={() => {
-            setLike(false);
-          }}
-        />
-      )}
-      {!like && (
-        <AiOutlineHeart
-          onClick={() => {
-            setLike(true);
-          }}
-        />
-      )}
-    </div>
-  );
+    this.state = {
+      like: false,
+    };
+  }
+
+  setLike = () => {
+    this.setState({
+      like: !this.state.like,
+    });
+  };
+
+  render() {
+    return (
+      <>
+        <div onClick={this.setLike}>
+          {this.state.like ? (
+            <AiFillHeart style={{ color: "red", fontSize: 30 }}></AiFillHeart>
+          ) : (
+            <AiOutlineHeart
+              style={{ color: "orange", fontSize: 30 }}
+            ></AiOutlineHeart>
+          )}
+        </div>
+      </>
+    );
+  }
 }
-export default BtnLike;
+
+export default LikeBtn;
