@@ -1,25 +1,24 @@
 import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Chart from "./features/ChartBar1";
-import Chart2 from "./features/ChartBar2";
-import SocialBlock from "./features/ChartBar3";
-import ChartColumn from "./features/ChartColumn";
-import CompCol from "./features/CompCol";
-import Room from "./features/Room";
-import Shirt from "./features/Shirt";
-import Young from "./features/Young_Shop";
-import BtnRate from "./homeword3/BtnRate";
-import LikeBtn from "./homeword3/BtnLike";
-import ChangeColor from "./features/State/ChangeColor";
-import BtnPrewNext from "./homeword3/BtnPrewNext";
+import Chart from "./Features/ChartBar1";
+import Chart2 from "./Features/ChartBar2";
+import SocialBlock from "./Features/ChartBar3";
+import ChartColumn from "./Features/ChartColumn";
+import CompCol from "./Features/CompCol";
+import Room from "./Features/Room";
+import Shirt from "./Features/Shirt";
+import Young from "./Features/Young_Shop";
+import ChangeColor from "./Features/State/ChangeColor";
+import HomeWork8 from "./HomeWork8";
+import Homework6 from "./HomeWork6";
+
 function App() {
   return (
     <>
       <div>
-        <LikeBtn></LikeBtn>
-        <BtnRate></BtnRate>
-        <BtnPrewNext></BtnPrewNext>
+        {/* <Homework6></Homework6> */}
+        <HomeWork8></HomeWork8>
       </div>
       <div>
         {/* <Shirt></Shirt> */}

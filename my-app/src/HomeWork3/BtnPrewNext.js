@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import img1 from "../../src/assets/Images/img1.jpg";
-import img2 from "../../src/assets/Images/img2.jpg";
-import img3 from "../../src/assets/Images/img3.jpg";
-import img4 from "../../src/assets/Images/img4.jpg";
-import img5 from "../../src/assets/Images/img5.jpg";
+import img1 from "../../src/Assets/Images/img1.jpg";
+import img2 from "../../src/Assets/Images/img2.jpg";
+import img3 from "../../src/Assets/Images/img3.jpg";
+import img4 from "../../src/Assets/Images/img4.jpg";
+import img5 from "../../src/Assets/Images/img5.jpg";
 
 const Images = [img1, img2, img3, img4, img5];
 class BtnPrewNext extends Component {
