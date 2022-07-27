@@ -55,7 +55,7 @@ export default function CustomersList() {
             Email
           </th>
           <th style={{ backgroundColor: "#F0E68C" }} scope="col">
-            SĐT
+            Address
           </th>
           <th
             style={{

@@ -12,13 +12,15 @@ import Young from "./Features/Young_Shop";
 import ChangeColor from "./Features/State/ChangeColor";
 import HomeWork8 from "./HomeWork8";
 import Homework6 from "./HomeWork6";
+import ReduxCount from "./Redux";
 
 function App() {
   return (
     <>
       <div>
         {/* <Homework6></Homework6> */}
-        <HomeWork8></HomeWork8>
+        {/* <HomeWork8></HomeWork8> */}
+        <ReduxCount></ReduxCount>
       </div>
       <div>
         {/* <Shirt></Shirt> */}

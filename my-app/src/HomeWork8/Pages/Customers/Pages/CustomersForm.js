@@ -50,6 +50,7 @@ export default function CustomersForm() {
             Email
           </label>
           <input
+            style={{ width: 400 }}
             class="form-control"
             placeholder="Email ..."
             id="inputEmail"
@@ -69,6 +70,7 @@ export default function CustomersForm() {
                 Password
               </label>
               <input
+                style={{ width: 400 }}
                 type="password"
                 className={`form-control`}
                 id="inputPassword4"
@@ -82,6 +84,7 @@ export default function CustomersForm() {
             Address
           </label>
           <input
+            style={{ width: 400 }}
             type="text"
             className="form-control"
             id="inputAddress"
